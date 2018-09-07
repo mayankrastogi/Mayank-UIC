@@ -1,0 +1,161 @@
+/* Container */
+
+body {
+	background-color: #2D2D29;
+}
+
+@media (min-width: 48em) {
+  .content.no-sidebar {
+    max-width: 48em;
+    margin-left: auto;
+	margin-right: auto;
+  }
+}
+
+@media (min-width: 64em) {
+  .content.no-sidebar {
+	max-width: 48em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Home */
+.index .gravatar {
+	width: 100%;
+	margin-top: -80px;
+	text-align: center;
+}
+
+.index .content-panel {
+    background-color: #3B3B35;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
+    border-bottom: 10px solid #caad00;
+	color: #fff;
+}
+
+@media (min-width: 992px) {
+	.index .author-header {
+		font-size: 60px;
+		margin-top: -20px;
+	}
+}
+@media (min-width: 768px) {
+	.index .author-header {
+		font-size: 52px;
+		margin-top: 0px;
+	}
+}
+.index .author-header {
+    font-family: 'Montserrat', sans-serif;
+    color: #caad00;
+    margin-top: 0px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+@media (min-width: 1200px) {
+	.index .header {
+		margin-left: -10%;
+		width: 120%;
+	}
+}
+.index .header {
+    margin-top: 10px;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    font-size: 32px;
+    width: 100%;
+	font-weight: 500;
+	line-height: 1.1;
+}
+@media (min-width: 768px) {
+	.header {
+		font-size: 62px;
+		margin-left: -10%;
+		width: 120%;
+	}
+}
+.header {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -0%;
+    width: 100%;
+}
+
+.index .author-email {
+	text-align: center;
+}
+
+.author-email a, .author-email a:active {
+	color: #ffeb99;
+}
+
+.author-email a:hover {
+	color: #caad00;
+}
+
+.index .author-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.index .links {
+    font-size: 2em;
+}
+.links {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.index .links a, .index .links a:active {
+    color: #ffeb99;
+}
+
+.index .links a:hover {
+	color: #caad00;
+}
+
+@media (min-width: 768px) {
+	.links i {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+.links i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.about-image {
+	margin: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.content-panel-transparent {
+	padding: 10px;
+	text-align: center;
+}
+
+.pill {
+	display: inline-block;
+	border: 2px solid;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px;
+	transition: color ease 0.5s;
+}
+
+.pill:hover {
+	background-color: #ffeb99;
+	color: #3B3B35;
+	text-decoration: none;
+	transition: color ease 0.5s;

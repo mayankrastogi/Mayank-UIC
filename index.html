@@ -1,0 +1,30 @@
+---
+layout: home
+title: Home
+---
+
+<div class="main content-panel">
+
+	<div class="gravatar">
+		<img src="{{ site.baseurl }}public/images/profile.png" class="img-circle about-image" height="150" width="150" alt="{{ site.author.name }}">
+	</div>
+
+	<h1 class="header author-header" itemprop="headline">{{ site.author.name }}</h1>
+	<h4 class="author-email"><a href="mailto:{{ site.author.email }}" target="_new"><i class="far fa-envelope">&nbsp;</i></a><a href="mailto:{{ site.author.email }}" target="_new">mrasto3@uic.edu</a></h4>
+
+	<div class="author-text">
+		{{ site.author.description }}
+	</div>
+
+	<p class="links">
+		<a href="{{ site.author.facebook }}" target="_new"><i class="fab fa-facebook-f"></i></a>
+		<a href="{{ site.author.googleplus }}" target="_new"><i class="fab fa-google-plus-g"></i></a>
+		<a href="{{ site.author.linkedin }}" target="_new"><i class="fab fa-linkedin-in"></i></a>
+		<a href="{{ site.author.url }}" target="_new"><i class="fas fa-globe"></i></a>
+		<a href="{{ site.author.github }}" target="_new"><i class="fab fa-github-alt"></i></a>
+	</p>
+
+</div>
+<div class="content-panel-transparent">
+	<a class="pill" href="{{ site.baseurl }}cs491"><i class="fas fa-link"></i>&nbsp;CS 491 (428) - Virtual and Augmented Reality</a>
+</div>

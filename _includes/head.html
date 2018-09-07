@@ -1,0 +1,45 @@
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58444407-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-58444407-3');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Mayank K Rastogi is a tech enthusiast and a passionate programmer who loves solving challenging problems and likes to keep learning awesome stuff!">
+    <meta name="author" content="Mayank K Rastogi">
+
+    <title>
+        {% if page.title == "Home" %}
+            {{ site.title }}
+        {% else %}
+            {{ page.title }} &vert; {{ site.title }}
+        {% endif %}
+    </title>
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="{{ site.baseurl }}favicons/manifest.json">
+    <link rel="mask-icon" href="{{ site.baseurl }}favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileImage" content="{{ site.baseurl }}favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#2c3e50">
+    
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}public/css/syntax.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}public/css/blackdoc.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}public/css/custom.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
+</head>
