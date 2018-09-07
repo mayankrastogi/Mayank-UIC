@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Mayank K Rastogi -- Developer -- http://in.linkedin.com/in/mayankkrastogi/
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Jekyll
+    jQuery, Bootstrap, Font Awesome
