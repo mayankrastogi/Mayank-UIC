@@ -1,0 +1,10 @@
+<p class="links">
+	<a href="{{ site.author.facebook }}" target="_new"><i class="fab fa-facebook-f"></i></a>
+	<a href="{{ site.author.googleplus }}" target="_new"><i class="fab fa-google-plus-g"></i></a>
+	<a href="{{ site.author.linkedin }}" target="_new"><i class="fab fa-linkedin-in"></i></a>
+	<a href="{{ site.author.url }}" target="_new"><i class="fas fa-globe"></i></a>
+	<a href="{{ site.author.github }}" target="_new"><i class="fab fa-github-alt"></i></a>
+	{% if page.layout != "home" %}
+		<a href="mailto:{{ site.author.email }}" target="_new"><i class="fas fa-envelope"></i></a>
+	{% endif %}
+</p>

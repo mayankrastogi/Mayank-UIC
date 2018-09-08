@@ -16,15 +16,11 @@ title: Home
 		{{ site.author.description }}
 	</div>
 
-	<p class="links">
-		<a href="{{ site.author.facebook }}" target="_new"><i class="fab fa-facebook-f"></i></a>
-		<a href="{{ site.author.googleplus }}" target="_new"><i class="fab fa-google-plus-g"></i></a>
-		<a href="{{ site.author.linkedin }}" target="_new"><i class="fab fa-linkedin-in"></i></a>
-		<a href="{{ site.author.url }}" target="_new"><i class="fas fa-globe"></i></a>
-		<a href="{{ site.author.github }}" target="_new"><i class="fab fa-github-alt"></i></a>
-	</p>
+	{% include links.html %}
 
 </div>
 <div class="content-panel-transparent">
 	<a class="pill" href="{{ site.baseurl }}cs491"><i class="fas fa-link"></i>&nbsp;CS 491 (428) - Virtual and Augmented Reality</a>
 </div>
+<br>
+{% include footer.html %}

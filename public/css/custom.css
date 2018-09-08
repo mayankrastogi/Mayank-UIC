@@ -1,8 +1,41 @@
-/* Container */
+/* Styling */
 
 body {
+	color: #949494;
 	background-color: #2D2D29;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
+
+code {
+	color: #bf616a;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Footer */
+
+.footnote {
+	font-size: 0.75rem;
+	color: #888;
+}
+
+.footnote a, .footnote a:active {
+	color: #a5575e;
+}
+
+.footnote a:hover {
+	color: #bf616a;
+}
+
+/* Sidebar */
+
+.lead {
+	font-size: 1rem;
+}
+
+/* Container */
 
 @media (min-width: 48em) {
   .content.no-sidebar {
@@ -113,11 +146,11 @@ body {
     text-align: center;
 }
 
-.index .links a, .index .links a:active {
+.links a, .links a:active {
     color: #ffeb99;
 }
 
-.index .links a:hover {
+.links a:hover {
 	color: #caad00;
 }
 
@@ -159,3 +192,4 @@ body {
 	color: #3B3B35;
 	text-decoration: none;
 	transition: color ease 0.5s;
+}
