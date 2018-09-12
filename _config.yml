@@ -10,7 +10,11 @@ url:              https://mrasto3.people.uic.edu
 baseurl:          /
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
-images:           /public/images/
+assets:
+  css:            /assets/css/
+  favicons:       /assets/favicons/
+  images:         /assets/images/
+  js:             /assets/js/
 
 author:
   name:           Mayank K Rastogi
