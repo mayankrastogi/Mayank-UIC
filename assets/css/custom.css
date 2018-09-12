@@ -67,7 +67,7 @@ code {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 20px;
-    box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 0, 0 6px 12px rgba(0, 0, 0, 0.2);
     border-bottom: 10px solid #caad00;
 	color: #fff;
 }
@@ -81,13 +81,13 @@ code {
 @media (min-width: 768px) {
 	.index .author-header {
 		font-size: 52px;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 }
 .index .author-header {
     font-family: 'Montserrat', sans-serif;
     color: #caad00;
-    margin-top: 0px;
+    margin-top: 0;
     padding-top: 15px;
     font-size: 30px;
 }
@@ -99,8 +99,8 @@ code {
 }
 .index .header {
     margin-top: 10px;
-    margin-left: 0%;
-    margin-bottom: 0px;
+    margin-left: 0;
+    margin-bottom: 0;
     font-size: 32px;
     width: 100%;
 	font-weight: 500;
