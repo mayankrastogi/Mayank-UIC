@@ -12,8 +12,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Mayank K Rastogi is a tech enthusiast and a passionate programmer who loves solving challenging problems and likes to keep learning awesome stuff!">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncatewords: 75 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="Mayank K Rastogi">
 
     <title>

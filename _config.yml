@@ -5,6 +5,8 @@ highlighter:      rouge
 kramdown:
   parse_block_html: true
 
+future:           true
+
 # Setup
 title:            Mayank@UIC
 tagline:          Programmer, Full-stack developer, Gamer
