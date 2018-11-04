@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Project &#35;3 (Proposal)&#58; Array of Things VR 
+title: Project &#35;3 (Proposal)&#58; ARray of Things 
 categories: [CS491, Projects]
 permalink: cs491/projects/03-proposal
 ---
 
-***Array of Things VR*** is our proposal for the third project, for our Virtual and Augmented Reality class at UIC.
+***ARray of Things*** is our proposal for the third project, for our Virtual and Augmented Reality class at UIC.
 
 ## Table of contents
 
@@ -18,43 +18,49 @@ permalink: cs491/projects/03-proposal
 
 The [Array of Things](https://arrayofthings.github.io/) is a collaborative effort among leading scientists, universities, local government, and communities to collect real-time data on urban environment, infrastructure, and activity for research and public use.
 
-With the help of this project, we are going to attempt to visualize some of the data, sourced from the Array of Things database, **in VR**.
+With the help of this project, we are going to visualize some of the data, sourced from the Array of Things database, **in AR**. Residents of Chicago will be able to use this application to gain a better understanding of the weather, cloud cover, traffic, and air quality, at various locations in the city, throughout the day. The following features are planned to be developed by the project deadline:
 
-Within the scope of the project, data from various sensors, installed throughout the city of **Chicago**, will be visualized on a **3D map** of the city, in **VR**.
+- View sensor nodes, within a given radius from the user's location, by pointing the camera in the direction of the nodes
+- Choose the type of sensor data to display (e.g. weather, cloud cover, air quality)
+- Choose the date and time of day for which the data is to be viewed
+- View raw sensor values for a given node by tapping the sensor marker on the screen
+- Compare the current value of a sensor with a value obtained in the past from the same node
+- Compare the values obtained from a sensor, at a given time, with those obtained from another sensor
+- Sensor data will be available in real-time (internet connection required)
 
-- The user will be able to compare **3 months** worth of data at any sensor node
-- The data maybe fetched in real-time, but for the scope of this project, the **data will be packaged within the app**
-- The data will be available on a **daily level**
+[Click here](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A569dd7c0-eed1-4586-beee-64e2c613b904) to view the pen-paper mockups for the app.
 
-> The time-span of the data, as well as the level, may be changed during the development, depending on a reasonable storage-space occupied by the data, since it will need to be packaged along with the application.
+Users will be able to view the following types of data:
 
-We plan to visualize the following data:
+1. Weather
+   1. Temperature
+   2. Humidity
+   3. Pressure
+2. Cloud Cover
+   1. Light intensity
+   2. Infra-red light
+   3. Ultra-violet light
+3. Air Quality
+   1. Carbon Monoxide (CO)
+   2. Hydrogen Sulphide (H2S)
+   3. Ozone (O3)
+   4. Sulphur Dioxide (SO2)
+   5. Nitrogen Dioxide (NO2)
 
-- Light Intensity
-- Sound Levels
-- Temperature
-- Precipitation
+## Why AR is beneficial here?
 
-> Other kinds of data may be added subject to roadblocks faced during the development and availability of time.
-
-Data visualization libraries are not readily available for Unity. Hence, we might need to build a basic visualization library as part of this project, which might further impact the number of features in the app that can be finished by the project deadline.
-
-## Why VR is beneficial here?
-
-Visualizing data in VR will enable the user to visit a particular area on the map, and recreate the conditions of that place, at a given time. *The idea is to create a **fun** and **interactive** way of visualizing geospatial data, overlaid with related visualizations*.
-
-Our premise is, that visualizing data in VR will help **increase the depth of insights**, gained by the user, over traditional visualization methods. 
+This app will provide its users ***on-the-go*** access to various types of environmental data for their neighborhood and the nearby areas. Using the camera to locate the nearby sensors will be much more intuitive than selecting them on a map. Additionally, viewing the sensor using the camera, and seeing the relevant information pop-up near the sensor-marker, will give the users a better sense of direction and location of the sensors. Furthermore, fairly quick comparisons can be made between the nearby sensors by just moving the camera around.
 
 ## Planned Hardware Support
 
-- [HTC Vive](https://www.vive.com)
+- Either iPhone or Android phones
 
 ## Tools &amp; Libraries
 
-- [Unity](https://www.unity3d.com) &ndash; Game Engine
-- [VRTK](https://vrtoolkit.readme.io/) &ndash; Virtual Reality Toolkit for Unity
-- [Mapbox](https://www.mapbox.com) / [WRLD](https://www.wrld3d.com) &ndash; For rendering 3D maps within Unity
-- [VisLab](https://github.com/varuneagle555/V3) &ndash; Data visualization library for Unity
+Depending on finalized hardware support, the following types of libraries will be needed:
+
+- Augmented Reality SDK &ndash; ARKit/ARCore
+- Networking Library for API calls &ndash; Alamofire/Volley
 
 ## Team
 
@@ -66,5 +72,3 @@ Our premise is, that visualizing data in VR will help **increase the depth of in
 ## References / Inspiration
 
 - [Array of Things](https://arrayofthings.github.io/) &ndash; a networked urban sensor project that’s changing our understanding of cities and urban life
-- [Data Visualization in VR](https://www.youtube.com/watch?v=wacNaAVGXdU), by Nirvaniq Labs
-- [Exploring Data in Virtual Reality](https://www.youtube.com/watch?v=wi3_91hwq0w): Comparisons with 2D Data Visualizations, by Patrick Millais, Simon Jones, Ryan Kelly
