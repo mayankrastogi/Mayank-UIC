@@ -3,7 +3,7 @@ layout: post
 title: Student's Choice Topic &mdash; The Teslasuit 
 categories: [CS491, Assignments]
 permalink: cs491/assignments/students-choice
-draft: true
+draft: false
 ---
 
 The [Teslasuit](https://teslasuit.io/) is a full-body VR haptic suit. It is *"the world’s first fully integrated smart clothing apparel with Haptic Feedback, Motion Capture, Climate Control and Biometric Feedback systems."*
