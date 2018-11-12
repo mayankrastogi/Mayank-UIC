@@ -8,7 +8,9 @@ draft: false
 
 The [Teslasuit](https://teslasuit.io/) is a full-body VR haptic suit. It is *"the world’s first fully integrated smart clothing apparel with Haptic Feedback, Motion Capture, Climate Control and Biometric Feedback systems."*
 
-![Teslasuit](https://teslasuit.io/wp-content/uploads/2018/04/26678459_1202398453227584_3620536319344606942_o.jpg)
+<div style="max-width:845px"><div style="position:relative;height:0;padding-bottom:56.25%">
+<iframe src='https://view.officeapps.live.com/op/embed.aspx?src={{ site.url }}{{ site.assets.images }}cs491_students-choice_teslasuit.pptx' width='845px' height='480px' style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></div>
+<br>
 
 ## Table of contents
 
